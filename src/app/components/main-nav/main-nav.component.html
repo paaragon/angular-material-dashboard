@@ -1,0 +1,9 @@
+<ul>
+  <li id="main-nav-header">
+    <h2>Menú</h2>
+  </li>
+  <li *ngFor="let link of links" routerLink="/{{link.link}}" routerLinkActive="active">
+    <mat-icon *ngIf="link.icon">{{link.icon}}</mat-icon>
+    <span>{{link.name}}</span>
+  </li>
+</ul>
