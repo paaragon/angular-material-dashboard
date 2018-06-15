@@ -1,3 +1,3 @@
-export const links: { name: string, icon?: string }[] = [
-    { name: 'Home', icon: 'home' },
+export const links: { name: string, link: string, icon?: string }[] = [
+    { name: 'Home', link: 'home',  icon: 'home' },
 ];
