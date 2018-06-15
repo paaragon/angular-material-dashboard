@@ -60,11 +60,11 @@ public logout(): Promise<any> {
 }
 ```
 
-### Important
-
-You can implement your own logic to login but you must set the variable `this.userIsLogged` with the correspondent value and return the promise with the same value.
-
-If you don't set the variable or don't return the promise, the login won't work.
+> ### Important
+>
+> You can implement your own logic to login but you must set the variable `this.userIsLogged` with the correspondent value and return the promise with the same value.
+>
+> If you don't set the variable or don't return the promise, the login won't work.
 
 ## Development server
 
